@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+.container {
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column; /* vertical alignment */
+  align-items: center; /* center horizontally */
+  gap: 20px; /* spacing between circles */
+  height: 500px;
+  width: 200px;
+  border: 100px;
+  background-color: aqua;
+}
+
+.circle {
+  width: 150px; /* circle size */
+  height: 150px;
+  border-radius: 50%; /* make circle */ /* crop image */
+  border: 3px solid white; /* optional border */
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /* crop without stretching */
+  display: block;
+  border-radius: 75px;
+}
